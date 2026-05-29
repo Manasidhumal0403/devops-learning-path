@@ -1,0 +1,17 @@
+name="Manasi"
+print(type(name))
+print(len(name))
+print(name[1])
+for i in name:
+    (print(i))
+
+txt = "The best things in life are free!"
+print ("free" in name)
+print("free" not in name)
+print("expensive" not in txt)
+print("best"in txt)
+
+if "youo" in txt:
+    print ("yes,free is present in text")
+else:
+    print("no,youo is not prsent in text")
